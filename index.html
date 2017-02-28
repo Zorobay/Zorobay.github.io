@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title> My First Web Page </title>
+
+<meta name="description" content="Portfolio for Sebastian Hegardt">	
+<meta name="keywords" content="sebastian, hegardt, dsek, lth, lund, computer, science">
+<meta http-equiv="author" content="Sebastian Hegardt">
+<meta http-equiv="content-language" content="sv-SE">
+
+</head>
+
+<body>
+<h1> Sebbes ascoola website </h1>
+<p> Här kommer alla mitt shit to be       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          displayed!</p>
+<!--br taggen ger line breaks-->
+<br>
+<br>
+
+<p>Tycker du att min sida är sjukt cool?</p>
+Yes:
+<input type="radio" name="yesorno" value="">
+No:
+<input type="radio" name="yesorno" value="">
+<br>
+<br>
+<h2>Mina andra sidor</h2>
+<ol>
+	<li> <a href="#Bild">Bilder</a></li>
+	<li> <a href="#Form">Forms</a></li>
+	<li> <a href="#Checkboxes">Kekboxes</a></li>
+	<li> <a href="#IFrame">iFrame</a></li>
+	<li> <a href="page2.html">Page 2</a></li>
+</ol>
+
+<h2> Här kommer en list på bra länkar</h2>
+
+<ul>
+	<li>Github</li>
+	<li>YouTube</li>
+	<li>Steam</li>
+</ul>
+
+<p> Äh, vi gör en freaking tabell! </p>
+
+<table>
+	<tr>
+		<th> Website </th>
+		<th>URL</th>
+		<th>Updated</th>
+	</tr>
+	
+	<tr>
+		<td>Github</td>
+		<td><a href="https://github.com/Zorobay">github.com</a></td>
+		<td>Yes</td>
+	</tr>
+</table>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<p> <a name="Bild"> Theese sheeznitz</a></p>
+<img src="img.jpg" width="300" height="200" title="TRUMPED!!" alt="A trump face">
+<audio controls autoplay loop draggable="true"><source src="sandstorm.mp3"/></audio>
+
+<br>
+
+<video width="640" height="360" controls>
+	<source src="sample.mp4"/>
+</video>
+
+<fieldset>
+	<legend><h1>Forms</h1><a name="Form"></a></legend>
+	
+	<form action="" method="">
+		<label for="pw">Password:</label>
+		<input type="password" id="pw" name="" size="200">
+		<br>
+		<p>Eller vill du skriva mer skit?</p>
+		<textarea rows="10" cols="30"></textarea>
+		<input type="submit" value="Snoppmit">
+		<br>
+		Hur många gånger har du besökt sidan?
+		<input type="number" min ="50" max="55">
+		<br>
+		<h3>Drop down list</h3>
+		
+		<select>
+			<option value="apple">Apple</option>
+			<option value="carrot">Carrot</option>
+			<option value="pear">Pear</option>
+		</select>
+		
+		<h3>Date and number box</h3>
+		<input type="date" name="day">
+	
+	</form>
+</fieldset>
+
+<h2>Kekboxes<a name="Checkboxes"></a></h2>
+
+<form action="" method="">
+	
+	<input type="checkbox" name="" checked="true"> Check for food
+</form>
+
+<br><br><br><br><br><br>
+
+<h1>iFrame</h1>
+
+<p><a name="IFrame"></a>This is a preview of page 2</p>
+
+<iframe frameborder="1" width="60%" height="300" align="middle" src="page2.html" name="ouriframe" id="ouriframe"></iframe>
+
+<a href="index.html" target="ouriframe"><input type="submit" value="Pageception"></a>
+</body>
+
+</html>
